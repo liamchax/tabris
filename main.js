@@ -4,7 +4,7 @@ var page = tabris.create("Page", {
 });
 
 var button = tabris.create("Button", {
-  text: "Native Widgets",
+  text: "Chax",
   layoutData: {centerX: 0, top: 100}
 }).appendTo(page);
 
@@ -14,7 +14,7 @@ var label = tabris.create("TextView", {
 }).appendTo(page);
 
 button.on("select", function() {
-  label.set("text", "Totally Rock!");
+  label.set("text", "Rocks!");
 });
 
 page.open();
