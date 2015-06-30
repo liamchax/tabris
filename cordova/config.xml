@@ -1,10 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.chax.chax" version="1.0.0">
-  <name>Chax</name>
-  <description>
-   Chax
-  </description>
-  <author email="hello@chaxapp.com" href="http://www.chaxapp.com">
-   Chax Team
-  </author>
+	<name>Chax</name>
+	<description>Chax</description>
+	<author email="hello@chaxapp.com" href="http://www.chaxapp.com">Chax Team</author>
+	<access origin="*" />
+	<preference name="Orientation" value="portrait" />
+	<preference name="HideKeyboardFormAccessoryBar" value="true"/>
+	<preference name="SuppressesIncrementalRendering" value="true"/>
+	<platform name="ios">
+		<icon src="images/icon-60@2x.png" width="120" height="120" />
+		<splash src="images/Default-667h.png" width="750" height="1334"/>
+	</platform>
 </widget>
