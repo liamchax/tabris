@@ -4,6 +4,12 @@
 	<description>Chax</description>
 	<author email="hello@chaxapp.com" href="http://www.chaxapp.com">Chax Team</author>
 	<access origin="*" />
+	<gap:plugin name="de.appplant.cordova.plugin.badge" />
+	<gap:plugin name="org.apache.cordova.camera" />
+	<gap:plugin name="org.apache.cordova.device-motion" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="nl.x-services.plugins.toast" />
+	<gap:plugin name="org.apache.cordova.dialogs" />
 	<gap:plugin name="org.apache.cordova.statusbar" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<preference name="Orientation" value="portrait" />
