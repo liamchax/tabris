@@ -13,7 +13,7 @@
 	<preference name="ShowSplashScreenSpinner" value="false" />
 	<preference name="StatusBarStyle" value="lightcontent" />
 	<platform name="ios">
-		<icon src="resources/ios/icons/Icon-60@2x.png" width="120" height="120" />
+		<icon src="resources/ios/icons/icon-60@2x.png" width="120" height="120" />
 		<splash src="resources/ios/splash/Default-667h.png" width="750" height="1334" />
 	</platform>
 </widget>
