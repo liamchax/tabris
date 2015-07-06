@@ -6,7 +6,6 @@ exports.createPage = function() {
 		background: 'rgba(248, 223, 100, 1)',
 		textColor: 'rgba(21, 21, 21, 1)',
 		title: '',
-		topLevel: true,
 		style: ["FULLSCREEN"]
 	});
 	
