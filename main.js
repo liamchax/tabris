@@ -13,21 +13,13 @@ if (typeof StatusBar !== 'undefined') {
 
 require('./walkthrough').createPage().open();
 
-navigator.notification.alert(
-    typeof StatusBar,  // message
-    function() {
-    
-    },         // callback
-    'Game Over',            // title
-    'Done'                  // buttonName
-);
 
-if (typeof StatusBar !== 'undefined') {
+//if (typeof StatusBar !== 'undefined') {
 	StatusBar.hide();
-}
+//}
 
 if (typeof navigator.splashscreen !== 'undefined') {
 	setTimeout(function() {
 		navigator.splashscreen.hide();
-	}, 4000);	
+	}, 8000);	
 }
