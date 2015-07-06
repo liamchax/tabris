@@ -53,8 +53,7 @@ exports.createPage = function() {
 		font: 'bold 16px',
 		alignment: 'center'
 	}).on('tap', function() {
-		//require('./createUserNumber').createPage().open();
-		StatusBar.hide();
+		require('./createUserNumber').createPage().open();
 	}).appendTo(page.bottomPanel.getStarted);
 	
 	// Export Page Object

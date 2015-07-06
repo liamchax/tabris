@@ -21,6 +21,7 @@ if (typeof StatusBar !== 'undefined') {
 if (typeof navigator.splashscreen !== 'undefined') {
 	setTimeout(function() {
 		//navigator.splashscreen.hide();
-		navigator.splashscreen.show();
-	}, 8000);	
+		//navigator.splashscreen.show();
+		StatusBar.styleLightContent();
+	}, 4000);	
 }
