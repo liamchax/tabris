@@ -7,5 +7,5 @@ var pages = {
 pages.walkthrough.createPage().open();
 
 setTimeout(function() {
-	navigator.splashscreen.hide();
+	//navigator.splashscreen.hide();
 }, 2000);

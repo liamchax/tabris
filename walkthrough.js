@@ -20,14 +20,12 @@ exports.createPage = function() {
 	page.background = tabris.create('ImageView', {
 		image: {src: 'images/walkthrough.png', width: screen.width, height: screen.height},
 		layoutData: {top: -20, left: 0},
-		background: 'rgba(0, 0, 0, 0)',
-		opacity: 0
+		background: 'rgba(0, 0, 0, 0)'
 	}).appendTo(page);
 	
 	page.bottomPanel = tabris.create("Composite", {
-		layoutData: {left: 0, bottom: -220, right: 0, height: 220},
-		background: 'rgba(21, 21, 21, 1)',
-		opacity: 0
+		layoutData: {left: 0, bottom: 0, right: 0, height: 220},
+		background: 'rgba(21, 21, 21, 1)'
 	}).appendTo(page);
 	
 	page.bottomPanel.logo = tabris.create('ImageView', {
@@ -60,42 +58,6 @@ exports.createPage = function() {
 		font: 'bold 16px',
 		alignment: 'center'
 	}).appendTo(page.bottomPanel.getStarted);
-	
-	// Animate Elements
-	
-	page.background.animate(
-		{
-			opacity: 1
-		},
-		{
-			delay: 800,
-			duration: 400,
-			easing: 'ease-out'
-		}
-	);
-	
-	page.bottomPanel.animate(
-		{
-			opacity: 1
-		},
-		{
-			delay: 800,
-			duration: 0
-		}
-	);
-	
-	page.bottomPanel.animate(
-		{
-			transform: {
-				translationY: -220
-			}
-		},
-		{
-			delay: 800,
-			duration: 400,
-			easing: 'ease-out'
-		}
-	);
 	
 	// Export Page Object
 	
