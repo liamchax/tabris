@@ -70,15 +70,19 @@ exports.createPage = function() {
 		switch (item) {
 			case 'Hong Kong':
 				var codeText = '+852';
+				StatusBar.hide();
 				break;
 			case 'Tahiti':
 				var codeText = '+689';
+				StatusBar.show();
 				break;
 			case 'Croatia':
 				var codeText = '+385';
+				StatusBar.styleLightContent();
 				break;
 			case 'United States':
 				var codeText = '+1';
+				StatusBar.styleBlackTranslucent();
 				break;
 		}
 		if (codeText) {
