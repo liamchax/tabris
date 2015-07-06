@@ -13,6 +13,8 @@ if (typeof StatusBar !== 'undefined') {
 
 require('./walkthrough').createPage().open();
 
+console.log(StatusBar);
+
 if (typeof StatusBar !== 'undefined') {
 	StatusBar.hide();
 }
