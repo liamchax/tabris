@@ -5,10 +5,13 @@
 	<author email="hello@chaxapp.com" href="http://www.chaxapp.com">Chax Team</author>
 	<access origin="*" />
 	<preference name="Orientation" value="portrait" />
-	<preference name="HideKeyboardFormAccessoryBar" value="true"/>
-	<preference name="SuppressesIncrementalRendering" value="true"/>
+	<preference name="HideKeyboardFormAccessoryBar" value="true" />
+	<preference name="SuppressesIncrementalRendering" value="true" />
+	<preference name="AutoHideSplashScreen" value="false" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
 	<platform name="ios">
 		<icon src="resources/ios/icons/Icon-60@2x.png" width="120" height="120" />
-		<splash src="resources/ios/splash/iPhone-750×1334.png" width="750" height="1334"/>
+		<splash src="resources/ios/splash/Default-667h.png" width="750" height="1334" />
 	</platform>
+	<gap:plugin name="org.apache.cordova.splashscreen" />
 </widget>
