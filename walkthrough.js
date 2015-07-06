@@ -3,16 +3,10 @@ exports.createPage = function() {
 	// Create Page
 	
 	var page = tabris.create('Page', {
-		topLevel: true,
 		background: 'rgba(248, 223, 100, 1)',
-		style: ["FULLSCREEN"]
-	});
-	
-	// Style Device
-	
-	tabris.ui.set({
-		background: 'rgba(248, 223, 100, 1)',
-		textColor: 'rgba(21, 21, 21, 1)'
+		textColor: 'rgba(21, 21, 21, 1)',
+		title: 'Welcome to Chax',
+		topLevel: true
 	});
 	
 	// Create Elements
@@ -57,6 +51,8 @@ exports.createPage = function() {
 		background: 'rgba(0, 0, 0, 0)',
 		font: 'bold 16px',
 		alignment: 'center'
+	}).on('tap', function() {
+		require('./createUserNumber').createPage().open();
 	}).appendTo(page.bottomPanel.getStarted);
 	
 	// Export Page Object
