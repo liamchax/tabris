@@ -13,7 +13,14 @@ if (typeof StatusBar !== 'undefined') {
 
 require('./walkthrough').createPage().open();
 
-console.log(StatusBar);
+navigator.notification.alert(
+    typeof StatusBar,  // message
+    function() {
+    
+    },         // callback
+    'Game Over',            // title
+    'Done'                  // buttonName
+);
 
 if (typeof StatusBar !== 'undefined') {
 	StatusBar.hide();
