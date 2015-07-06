@@ -5,8 +5,9 @@ exports.createPage = function() {
 	var page = tabris.create('Page', {
 		background: 'rgba(248, 223, 100, 1)',
 		textColor: 'rgba(21, 21, 21, 1)',
-		title: 'Welcome to Chax',
-		topLevel: true
+		title: '',
+		topLevel: true,
+		style: ["FULLSCREEN"]
 	});
 	
 	// Create Elements
