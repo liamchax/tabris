@@ -1,18 +1,18 @@
 exports.createPage = function() {
 	
-	// Style Device
-	
-	tabris.ui.set({
-		background: 'rgba(248, 223, 100, 1)',
-		textColor: 'rgba(21, 21, 21, 1)'
-	});
-	
 	// Create Page
 	
 	var page = tabris.create('Page', {
 		topLevel: true,
 		background: 'rgba(248, 223, 100, 1)',
 		style: ["FULLSCREEN"]
+	});
+	
+	// Style Device
+	
+	tabris.ui.set({
+		background: 'rgba(248, 223, 100, 1)',
+		textColor: 'rgba(21, 21, 21, 1)'
 	});
 	
 	// Create Elements
