@@ -18,8 +18,10 @@
 	<preference name="SuppressesIncrementalRendering" value="true" />
 	<preference name="auto-hide-splash-screen" value="false" />
 	<preference name="AutoHideSplashScreen" value="false" />
-	<preference name="SplashScreenDelay" value="500000" />
+	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="ShowSplashScreenSpinner" value="false" />
+	<preference name="FadeSplashScreen" value="true" />  
+	<preference name="FadeSplashScreenDuration" value="1" />
 	<preference name="StatusBarStyle" value="lightcontent" />
 	<platform name="ios">
 		<icon src="resources/ios/icons/icon-60@2x.png" width="120" height="120" />

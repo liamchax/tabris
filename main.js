@@ -14,12 +14,13 @@ if (typeof StatusBar !== 'undefined') {
 require('./walkthrough').createPage().open();
 
 
-//if (typeof StatusBar !== 'undefined') {
+if (typeof StatusBar !== 'undefined') {
 	StatusBar.hide();
-//}
+}
 
 if (typeof navigator.splashscreen !== 'undefined') {
 	setTimeout(function() {
-		navigator.splashscreen.hide();
+		//navigator.splashscreen.hide();
+		navigator.splashscreen.show();
 	}, 8000);	
 }
