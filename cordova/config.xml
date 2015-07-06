@@ -6,12 +6,12 @@
 	<access origin="*" />
 	<gap:plugin name="br.com.dtmtec.plugins.carrier" />
 	<gap:plugin name="de.appplant.cordova.plugin.badge" />
-	<gap:plugin name="org.apache.cordova.camera" />
-	<gap:plugin name="org.apache.cordova.device-motion" />
-	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="cordova-plugin-camera" />
+	<gap:plugin name="cordova-plugin-device-motion" />
+	<gap:plugin name="cordova-plugin-network-information" />
 	<gap:plugin name="nl.x-services.plugins.toast" />
-	<gap:plugin name="org.apache.cordova.dialogs" />
-	<gap:plugin name="org.apache.cordova.statusbar" />
+	<gap:plugin name="cordova-plugin-dialogs" />
+	<gap:plugin name="cordova-plugin-statusbar" />
 	<gap:plugin name="cordova-plugin-splashscreen" />
 	<preference name="deployment-target" value="7.0" />
 	<preference name="Orientation" value="portrait" />
